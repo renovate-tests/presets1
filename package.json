@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoRBaquero/testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoRBaquero/testing/issues"
+  },
+  "homepage": "https://github.com/DiegoRBaquero/testing#readme",
+  "dependencies": {
+    "@pager/logger": "5.x"
+  },
+  "renovate": {
+    "extends": [
+      "github>DiegoRBaquero/renovate-config"
+    ]
+  }
+}
